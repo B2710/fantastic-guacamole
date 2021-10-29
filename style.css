@@ -7,6 +7,13 @@ body{
 	padding: 0;
 }
 
+p {
+    letter-spacing: 0.5em;
+    word-spacing: 2em;
+    line-height: 21px;
+    text-align: center;
+}
+
 h1{
 	color:#ffc;
 	background-color:#009;
@@ -32,10 +39,4 @@ a {
 strong {
     font-style: italic;
     text-transform: uppercase;
-}
-p {
-    letter-spacing: 0.5em;
-    word-spacing: 2em;
-    line-height: 1.5;
-    text-align: center;
 }
