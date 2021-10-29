@@ -30,17 +30,22 @@ h1{
 }
 
 h2 {
-	color: white;
-	background-color: #090;
-	font-size: 1.5em;
-	margin: 0;
-	padding: 2px;
+	color:white;
+	background-color:#090;
+	font-size:1.5em;
+	margin:0;
+	padding:2px;
 	padding-left:14px;
-	border-style: dashed;
-    border-width: 3px;
-    border-left-width: 10px;
-    border-right-width: 10px;
-    border-color: red;
+	border-style:dashed;
+    border-width:3px;
+    border-left-width:10px;
+    border-right-width:10px;
+    border-color:red;
+}
+
+h3 {
+	color: #999;
+	font-size:1.25em;
 }
 
 a {
