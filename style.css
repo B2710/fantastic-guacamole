@@ -75,3 +75,11 @@ Body, p, h1, h2, h3, a, li, table{
 	color:lime;
 	background-color:black;
 }
+
+a:link {
+    color: blue;
+}
+
+a:visited {
+    color: purple;
+}
