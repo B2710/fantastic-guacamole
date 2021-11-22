@@ -12,6 +12,12 @@ p {
     word-spacing: 0.5em;
     line-height: 21px;
     text-align: center;
+    font: 14px/1.5 "Times New Roman", times, serif;
+    padding: 30px 10px;
+    border: 1px black solid;
+    border-width: 1px 5px 5px 1px;
+    border-color: red green blue yellow;
+    margin: 10px 50px;
 }
 
 h1{
@@ -24,9 +30,7 @@ h1{
 	font-style: italic;
 	text-align: center;
 	letter-spacing: 0.5em;
-	border-bottom-style: solid;
-	border-bottom-width: 0.5em;
-	border-bottom-color: lime;
+	border-bottom:0.5em lime solid;
 }
 
 h2 {
@@ -36,11 +40,8 @@ h2 {
 	margin:0;
 	padding:2px;
 	padding-left:14px;
-	border-style:dashed;
-    border-width:3px;
-    border-left-width:10px;
-    border-right-width:10px;
-    border-color:lime;
+	border:lime dashed;
+	border-width:3px 10px;
 }
 
 h3 {
@@ -49,10 +50,9 @@ h3 {
 }
 
 img {
-	border-style:dashed;
-	border-width:2px;
-	border-color:lime;
+	border:2px lime dashed;
 }
+
 a {
     text-decoration: none;
 }
@@ -76,10 +76,16 @@ Body, p, h1, h2, h3, a, li, table{
 	background-color:black;
 }
 
+/* link changes from blue to purple if the link is visited */
+
 a:link {
     color: blue;
 }
 
 a:visited {
     color: purple;
+}
+
+p:first-child{
+	font:40px bold;
 }
